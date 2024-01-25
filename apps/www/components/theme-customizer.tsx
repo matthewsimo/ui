@@ -237,6 +237,14 @@ function Customizer() {
             <Button
               variant={"outline"}
               size="sm"
+              onClick={() => setConfig({ ...config, style: "ms" })}
+              className={cn(config.style === "ms" && "border-2 border-primary")}
+            >
+              MS
+            </Button>
+            <Button
+              variant={"outline"}
+              size="sm"
               onClick={() => setConfig({ ...config, style: "default" })}
               className={cn(
                 config.style === "default" && "border-2 border-primary"

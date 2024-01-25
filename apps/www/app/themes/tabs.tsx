@@ -6,6 +6,7 @@ import { useConfig } from "@/hooks/use-config"
 import { ThemeWrapper } from "@/components/theme-wrapper"
 import CardsDefault from "@/registry/default/example/cards"
 import { Skeleton } from "@/registry/default/ui/skeleton"
+import CardsMS from "@/registry/ms/example/cards"
 import CardsNewYork from "@/registry/new-york/example/cards"
 
 export function ThemesTabs() {
@@ -66,6 +67,7 @@ export function ThemesTabs() {
         <ThemeWrapper>
           {config.style === "new-york" && <CardsNewYork />}
           {config.style === "default" && <CardsDefault />}
+          {config.style === "ms" && <CardsMS />}
         </ThemeWrapper>
       )}
     </div>
