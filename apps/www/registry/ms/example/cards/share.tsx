@@ -1,28 +1,24 @@
 "use client"
 
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/registry/default/ui/avatar"
-import { Button } from "@/registry/default/ui/button"
+import { Avatar, AvatarFallback, AvatarImage } from "@/registry/ms/ui/avatar"
+import { Button } from "@/registry/ms/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/ms/ui/card"
+import { Input } from "@/registry/ms/ui/input"
+import { Label } from "@/registry/ms/ui/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/default/ui/select"
-import { Separator } from "@/registry/default/ui/separator"
+} from "@/registry/ms/ui/select"
+import { Separator } from "@/registry/ms/ui/separator"
 
 export function CardsShare() {
   return (

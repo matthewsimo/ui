@@ -1,4 +1,4 @@
-import { Separator } from "@/registry/default/ui/separator"
+import { Separator } from "@/registry/ms/ui/separator"
 
 export default function SeparatorDemo() {
   return (

@@ -1,4 +1,4 @@
-import { Skeleton } from "@/registry/default/ui/skeleton"
+import { Skeleton } from "@/registry/ms/ui/skeleton"
 
 export default function SkeletonDemo() {
   return (

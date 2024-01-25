@@ -19,15 +19,15 @@ import {
   useReactTable,
 } from "@tanstack/react-table"
 
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/ms/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Checkbox } from "@/registry/default/ui/checkbox"
+} from "@/registry/ms/ui/card"
+import { Checkbox } from "@/registry/ms/ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuCheckboxItem,
@@ -36,8 +36,8 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
-import { Input } from "@/registry/default/ui/input"
+} from "@/registry/ms/ui/dropdown-menu"
+import { Input } from "@/registry/ms/ui/input"
 import {
   Table,
   TableBody,
@@ -45,7 +45,7 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/registry/default/ui/table"
+} from "@/registry/ms/ui/table"
 
 const data: Payment[] = [
   {

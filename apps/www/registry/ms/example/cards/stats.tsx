@@ -2,12 +2,7 @@ import { useTheme } from "next-themes"
 import { Bar, BarChart, Line, LineChart, ResponsiveContainer } from "recharts"
 
 import { useConfig } from "@/hooks/use-config"
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/registry/default/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@/registry/ms/ui/card"
 import { themes } from "@/registry/themes"
 
 const data = [

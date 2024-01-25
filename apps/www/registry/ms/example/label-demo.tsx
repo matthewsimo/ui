@@ -1,5 +1,5 @@
-import { Checkbox } from "@/registry/default/ui/checkbox"
-import { Label } from "@/registry/default/ui/label"
+import { Checkbox } from "@/registry/ms/ui/checkbox"
+import { Label } from "@/registry/ms/ui/label"
 
 export default function LabelDemo() {
   return (

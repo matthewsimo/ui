@@ -8,8 +8,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/registry/default/ui/alert-dialog"
-import { Button } from "@/registry/default/ui/button"
+} from "@/registry/ms/ui/alert-dialog"
+import { Button } from "@/registry/ms/ui/button"
 
 export default function AlertDialogDemo() {
   return (

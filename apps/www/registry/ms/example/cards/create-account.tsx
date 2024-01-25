@@ -1,7 +1,7 @@
 "use client"
 
 import { Icons } from "@/components/icons"
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/ms/ui/button"
 import {
   Card,
   CardContent,
@@ -9,9 +9,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/default/ui/card"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+} from "@/registry/ms/ui/card"
+import { Input } from "@/registry/ms/ui/input"
+import { Label } from "@/registry/ms/ui/label"
 
 export function CardsCreateAccount() {
   return (

@@ -6,14 +6,14 @@ import { useForm } from "react-hook-form"
 import * as z from "zod"
 
 import { cn } from "@/lib/utils"
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/ms/ui/button"
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@/registry/default/ui/command"
+} from "@/registry/ms/ui/command"
 import {
   Form,
   FormControl,
@@ -22,13 +22,13 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "@/registry/default/ui/form"
+} from "@/registry/ms/ui/form"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
-import { toast } from "@/registry/default/ui/use-toast"
+} from "@/registry/ms/ui/popover"
+import { toast } from "@/registry/ms/ui/use-toast"
 
 const languages = [
   { label: "English", value: "en" },

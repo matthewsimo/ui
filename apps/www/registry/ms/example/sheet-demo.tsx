@@ -1,6 +1,6 @@
-import { Button } from "@/registry/default/ui/button"
-import { Input } from "@/registry/default/ui/input"
-import { Label } from "@/registry/default/ui/label"
+import { Button } from "@/registry/ms/ui/button"
+import { Input } from "@/registry/ms/ui/input"
+import { Label } from "@/registry/ms/ui/label"
 import {
   Sheet,
   SheetClose,
@@ -10,7 +10,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/registry/default/ui/sheet"
+} from "@/registry/ms/ui/sheet"
 
 export default function SheetDemo() {
   return (

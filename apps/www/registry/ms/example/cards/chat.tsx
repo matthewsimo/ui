@@ -2,18 +2,14 @@ import * as React from "react"
 import { Check, Plus, Send } from "lucide-react"
 
 import { cn } from "@/lib/utils"
-import {
-  Avatar,
-  AvatarFallback,
-  AvatarImage,
-} from "@/registry/default/ui/avatar"
-import { Button } from "@/registry/default/ui/button"
+import { Avatar, AvatarFallback, AvatarImage } from "@/registry/ms/ui/avatar"
+import { Button } from "@/registry/ms/ui/button"
 import {
   Card,
   CardContent,
   CardFooter,
   CardHeader,
-} from "@/registry/default/ui/card"
+} from "@/registry/ms/ui/card"
 import {
   Command,
   CommandEmpty,
@@ -21,7 +17,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/registry/default/ui/command"
+} from "@/registry/ms/ui/command"
 import {
   Dialog,
   DialogContent,
@@ -29,14 +25,14 @@ import {
   DialogFooter,
   DialogHeader,
   DialogTitle,
-} from "@/registry/default/ui/dialog"
-import { Input } from "@/registry/default/ui/input"
+} from "@/registry/ms/ui/dialog"
+import { Input } from "@/registry/ms/ui/input"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@/registry/default/ui/tooltip"
+} from "@/registry/ms/ui/tooltip"
 
 const users = [
   {
